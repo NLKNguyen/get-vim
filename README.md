@@ -6,10 +6,12 @@ Download and install Vim to your local machine or server without root privilege
 What it does:
 * Download Vim 7.4 tarball to ~/downloads/
 * Extract to ~/downloads/vim74
-* Build Vim and install Vim to ~/vim74/
+* Build Vim and install to ~/vim74/
 * Add alias vim="~/vim74/bin/vim" to ~/.bash_profile
 
 Requires: bash, wget, tar, make, gcc
+
+Tested on: CentOS, Ubuntu
 
 ```
     $ wget https://raw.githubusercontent.com/NLKNguyen/get-vim/master/get-vim.sh
