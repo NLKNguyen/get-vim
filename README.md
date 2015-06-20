@@ -14,9 +14,9 @@ Requires: bash, wget, tar, make, gcc
 Tested on: CentOS, Ubuntu
 
 ```
-    $ wget --no-check-certificate https://raw.githubusercontent.com/NLKNguyen/get-vim/master/get-vim.sh
-    $ chmod +x get-vim.sh
-    $ ./get-vim.sh
+$ wget --no-check-certificate https://raw.githubusercontent.com/NLKNguyen/get-vim/master/get-vim.sh
+$ chmod +x get-vim.sh
+$ ./get-vim.sh
 ```
 
 For the alias to take effect, reload bash profile `source ~/.bash_profile`
